@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* This is the header section */
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: #e5e7eb;
+    background-color: #1f2937
+}
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+ul {
+    list-style: none;
+}
+.menu li {
+    padding: 2px 0.5px;
+  }
+header, footer {
+    background-color: #1f2937;
+    height: 100%;
+    width: 100%;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font: 48px;
+    color: #f9faf8;
+    font-size: extra-bold;
+}
+
+.image-placeholder {
+    background-color: lightgrey;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+    }
+.image-container {
+        background-color: lightgrey;
+        display: flex;
+        height: 180px;
+        margin: 5px;
+        width: 260px;
+        float: right;
+        margin-left: 20px;
+        clear: both;
+        }
+p,.intro {
+    color: #e5e7eb;
+    font: 18px;
+    margin-right: 0px;
+    overflow: auto;
+    display: block;
+}
+.image-container > h4 {
+align-self: center;
+text-align: center;
+width: 100%;
+}
+button,.into {
+    background-color: #3882f6;
+    color: white;
+    display: block;
+
+}
+/* This the information section */
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.image-placeholder.square {
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+    width:175px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+} 
+.Information p {
+    color: black;
+
+}
+.Information ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Information li p {
+    display: inline-block;
+    margin: 0px 20px
+}
+/* This is the quote section  */
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0%;
+}
+.words {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    padding: 30px 30px;
+}
+.author {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    text-align: right;
+}
+
+/* This is for the call section */
+
+#rectangle {
+    width: 500px;
+    height:100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
